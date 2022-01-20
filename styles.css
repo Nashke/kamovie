@@ -48,12 +48,14 @@
 .movie-list-item{
     margin-right: 30px;
     position: relative;
+    `;
     
 }
 .movie-list-item-img{
     width: 170px;
     height: 100px;
     transition: all 1s;
+    object-fit: cover;
 }
 .movie-list-item:hover .movie-list-item-img{
     transform: scale(1.2);
@@ -112,4 +114,10 @@
     background-repeat: no-repeat;
     background-position: right;
     align-items: center;
+}
+iframe{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
 }
